@@ -1,0 +1,63 @@
+
+
+.itemSelect {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.fullDropdown {
+    width: 670px;
+    margin: auto;
+    overflow: scroll;
+    overflow-y: auto;
+    height: 200px;
+    border-style: outset;
+    background-color: #DDFDFF;
+}
+
+.mainButton {
+    margin-top: 10%;
+    height: 50px;
+    width: 500px;
+    overflow-x: auto;
+    font-family: Verdana;
+    font-size: 18px;
+    border-style: solid;
+    background-color: #d3dbdc;
+}
+
+.downArrow {
+    float: right;
+    width: 17px;
+    height: 17px;
+
+}
+
+.check {
+    background-color: white;
+    position: relative;
+    left: 25%;
+}
+
+.itemLabel { 
+    font-family: Verdana;
+    margin-right: 25%;
+}
+
+.selectAll {
+    margin-top: 10%;
+    background-color: #d3dbdc;
+    font-family: Verdana;
+}
+
+.deselectAll {
+    margin-top: 10%;
+    background-color: #d3dbdc;
+    font-family: Verdana;
+}
+
+.topLevel {
+    justify-content: center;
+    display: flex;
+}
